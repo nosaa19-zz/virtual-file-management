@@ -20,9 +20,6 @@ namespace UsrControl
                 command = Console.ReadLine();
                 mainController.CommandProcess(command);
                 Console.WriteLine();
-                //Console.Write("press Enter to Continue ...");
-                //Console.ReadLine();
-                //Console.Clear();
             }
             while (command.ToLower() != "exit"); 
         }

@@ -9,7 +9,12 @@ namespace UsrControl
         {
             String command;
             MainController mainController = new MainController();
-
+            Console.WriteLine("==========__======__==__============__===");
+            Console.WriteLine("\\  /\\  / |__ |   |   |  |  /\\  /\\  |__  ");
+            Console.WriteLine(" \\/  \\/  |__ |__ |__ |__| /  \\/  \\ |__  ");
+            Console.WriteLine("=========================================");
+            Console.WriteLine("--------VIRTUAL-FILE-MANAGEMENT----------");
+            Console.WriteLine("=========================================");
             do {
                 Console.Write("# ");
                 command = Console.ReadLine();

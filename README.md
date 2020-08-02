@@ -11,7 +11,7 @@ open cmd on in Folder 'virtual-file-management'
 cd to ./UsrControl 
 type 'dotnet run'
 
-##Available Command:
+## Available Command:
 * register {username}
 * create_folder {username} {folder_name} {description}
 * delete_folder {username} {folder_id}
@@ -21,7 +21,7 @@ type 'dotnet run'
 * delete_file {username} {folder_id} {file_name}
 * get_files {username} {folder_id} {sort_name|sort_time|sort_extension} {asc|dsc}
 
-###Example command
+### Example command
 - register user1
 - create_folder user1 ‘Work’ ‘The working files and necessary files are here’
 - get_folders user1

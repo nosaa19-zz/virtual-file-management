@@ -77,7 +77,7 @@ namespace UsrControl.Service
         }
 
         private void CreateFolder(String command) {
-            var regularExpression = new Regex(@"(Create_Folder)\s(\w+)\s(['`‘].+['`’])\s?(.*)", RegexOptions.IgnoreCase);
+            var regularExpression = new Regex(@"(Create_Folder)\s(\w+)\s(['`‘].+['`’])\s(.*)", RegexOptions.IgnoreCase);
             var match = regularExpression.Match(command);
 
             String username = match.Groups[2].Value;

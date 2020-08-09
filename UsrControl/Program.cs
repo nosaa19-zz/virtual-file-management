@@ -18,7 +18,7 @@ namespace UsrControl
             do {
                 Console.Write("# ");
                 command = Console.ReadLine();
-                mainController.CommandProcess(command);
+                Console.WriteLine(mainController.CommandProcess(command));
                 Console.WriteLine();
             }
             while (command.ToLower() != "exit"); 

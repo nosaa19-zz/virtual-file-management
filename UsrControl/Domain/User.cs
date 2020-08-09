@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UsrControl.Domain
 {
-    class User
+    public class User
     {
         public String Id { get; set;}
         public String Username { get; set; }
